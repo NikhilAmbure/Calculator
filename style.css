@@ -1,0 +1,62 @@
+*{
+    background-color: black;
+    font-family: Madimi One;
+}
+
+.input-box {
+    height: 60px;
+    width: 350px;
+    margin-bottom: -20px;
+    border: 1px solid white;
+    background-color: rgb(148, 146, 146);
+    color: black;
+    font-size: 40px;
+}
+
+.num-keys {
+    width: 350px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.numbers-button{
+    color: white;
+    background-color: gray;
+    padding: 20px 28px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.symbol-button {
+    background-color: rgb(182, 124, 15);
+    color: white;
+    padding: 20px 30px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.clear-button {
+    padding: 28px 20px;
+    background-color: gray;
+    border-radius: 100%;
+    font-size:12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.secondrow {
+    margin-left: -10px;
+    margin-right: 10px;
+}
